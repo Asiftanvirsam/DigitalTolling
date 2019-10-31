@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\DigitalTolling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Asif Tanvir\\.gradle\\caches\\transforms-2\\files-2.1\\ac39abbf0ca251d406b61fc420c70bef\\core-1.9\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

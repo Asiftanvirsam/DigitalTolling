@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitaltolling">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.SignUpActivity" />
+        <activity
+            android:name=".Activities.HistoryActivity"
+            android:label="History" />
+        <activity android:name=".Activities.JapanActivity" />
+        <activity android:name=".Activities.HanifActivity" />
+        <activity android:name=".Activities.TolllistActivity" />
+        <activity android:name=".Activities.PaymentActivity" />
+        <activity android:name=".Activities.ScannerActivity" />
+        <activity android:name=".Activities.VehicleregActivity" />
+        <activity android:name=".Activities.CodeActivity" />
+        <activity android:name=".Activities.PhonenumActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity
+            android:name=".Activities.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.SigninActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,289 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.digitaltolling"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\DigitalTolling\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\DigitalTolling\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.autofocus" />
+11-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:39:5-70
+11-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:39:19-67
+12    <uses-feature android:name="android.hardware.camera" />
+12-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:41:5-60
+12-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:41:19-57
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:42:5-67
+14-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:42:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:43:5-65
+15-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:43:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:44:5-80
+16-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:44:22-77
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:42:5-67
+17-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:42:22-64
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:44:5-80
+18-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:44:22-77
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:5-79
+19-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:5-68
+20-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:26:5-110
+21-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:26:22-107
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:26:22-79
+23
+24    <permission
+24-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:28:5-30:47
+25        android:name="com.example.digitaltolling.permission.C2D_MESSAGE"
+25-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:29:9-63
+26        android:protectionLevel="signature" />
+26-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:30:9-44
+27
+28    <uses-permission android:name="com.example.digitaltolling.permission.C2D_MESSAGE" />
+28-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:32:5-79
+28-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:32:22-76
+29
+30    <application
+30-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:5:5-38:19
+31        android:allowBackup="true"
+31-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:6:9-35
+32        android:debuggable="true"
+33        android:icon="@drawable/launcher_icon"
+33-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:7:9-47
+34        android:label="@string/app_name"
+34-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:8:9-41
+35        android:roundIcon="@drawable/launcher_icon"
+35-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:9:9-52
+36        android:supportsRtl="true"
+36-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:10:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:11:9-40
+39        <activity android:name="com.example.digitaltolling.Activities.SignUpActivity" />
+39-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:12:9-63
+39-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:12:19-60
+40        <activity
+40-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:13:9-15:39
+41            android:name="com.example.digitaltolling.Activities.HistoryActivity"
+41-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:14:13-55
+42            android:label="History" />
+42-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:15:13-36
+43        <activity android:name="com.example.digitaltolling.Activities.JapanActivity" />
+43-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:16:9-62
+43-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:16:19-59
+44        <activity android:name="com.example.digitaltolling.Activities.HanifActivity" />
+44-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:17:9-62
+44-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:17:19-59
+45        <activity android:name="com.example.digitaltolling.Activities.TolllistActivity" />
+45-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:18:9-65
+45-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:18:19-62
+46        <activity android:name="com.example.digitaltolling.Activities.PaymentActivity" />
+46-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:19:9-64
+46-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:19:19-61
+47        <activity android:name="com.example.digitaltolling.Activities.ScannerActivity" />
+47-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:20:9-64
+47-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:20:19-61
+48        <activity android:name="com.example.digitaltolling.Activities.VehicleregActivity" />
+48-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:21:9-67
+48-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:21:19-64
+49        <activity android:name="com.example.digitaltolling.Activities.CodeActivity" />
+49-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:22:9-61
+49-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:22:19-58
+50        <activity android:name="com.example.digitaltolling.Activities.PhonenumActivity" />
+50-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:23:9-65
+50-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:23:19-62
+51        <activity android:name="com.example.digitaltolling.Activities.LoginActivity" />
+51-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:24:9-62
+51-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:24:19-59
+52        <activity
+52-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:25:9-28:59
+53            android:name="com.example.digitaltolling.Activities.Home"
+53-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:26:13-44
+54            android:label="@string/title_activity_home"
+54-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:27:13-56
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:28:13-56
+56        <activity android:name="com.example.digitaltolling.Activities.RegisterActivity" />
+56-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:29:9-65
+56-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:29:19-62
+57        <activity android:name="com.example.digitaltolling.Activities.HomeActivity" />
+57-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:30:9-61
+57-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:30:19-58
+58        <activity android:name="com.example.digitaltolling.Activities.SigninActivity" >
+58-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:31:9-37:20
+58-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:31:19-60
+59            <intent-filter>
+59-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:32:13-36:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:33:17-69
+60-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:33:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:35:17-77
+62-->D:\DigitalTolling\app\src\main\AndroidManifest.xml:35:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:23:9-29:75
+66            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+66-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:24:13-85
+67            android:excludeFromRecents="true"
+67-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:25:13-46
+68            android:exported="true"
+68-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:26:13-36
+69            android:launchMode="singleInstance"
+69-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:27:13-48
+70            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+70-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:28:13-102
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:29:13-72
+72
+73        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+73-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:31:9-35:19
+73-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:31:18-89
+74            <meta-data
+74-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+75-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:33:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-auth:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4bdbd8b09cf62e1340613c1de4600f04\firebase-auth-16.0.1\AndroidManifest.xml:34:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:28:13-30:85
+78                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+78-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:29:17-139
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b747d5e5b5051f242536684e89ee7dc5\firebase-measurement-connector-impl-16.0.1\AndroidManifest.xml:30:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:36:13-38:85
+81                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+81-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:37:17-96
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:38:17-82
+83        </service>
+84
+85        <receiver
+85-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:29:9-33:20
+86            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+86-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:30:13-85
+87            android:enabled="true"
+87-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:31:13-35
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:32:13-37
+89        </receiver>
+90        <receiver
+90-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:34:9-42:20
+91            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+91-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:35:13-100
+92            android:enabled="true"
+92-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:36:13-35
+93            android:exported="true"
+93-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:37:13-36
+94            android:permission="android.permission.INSTALL_PACKAGES" >
+94-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:38:13-69
+95            <intent-filter>
+95-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:39:13-41:29
+96                <action android:name="com.android.vending.INSTALL_REFERRER" />
+96-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:40:17-79
+96-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:40:25-76
+97            </intent-filter>
+98        </receiver>
+99
+100        <service
+100-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:44:9-47:40
+101            android:name="com.google.android.gms.measurement.AppMeasurementService"
+101-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:45:13-84
+102            android:enabled="true"
+102-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:46:13-35
+103            android:exported="false" />
+103-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:47:13-37
+104        <service
+104-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:48:9-52:72
+105            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+105-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:49:13-87
+106            android:enabled="true"
+106-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:50:13-35
+107            android:exported="false"
+107-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:51:13-37
+108            android:permission="android.permission.BIND_JOB_SERVICE" />
+108-->[com.google.firebase:firebase-analytics:16.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\4d8e698e9713834cd89c2e227209386b\firebase-analytics-16.0.1\AndroidManifest.xml:52:13-69
+109
+110        <receiver
+110-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:41:9-50:20
+111            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+111-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:42:13-78
+112            android:exported="true"
+112-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:43:13-36
+113            android:permission="com.google.android.c2dm.permission.SEND" >
+113-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:44:13-73
+114            <intent-filter>
+114-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:45:13-49:29
+115                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+115-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:46:17-81
+115-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:46:25-78
+116
+117                <category android:name="com.example.digitaltolling" />
+117-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:48:17-61
+117-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:48:27-58
+118            </intent-filter>
+119        </receiver>
+120        <!--
+121             FirebaseInstanceIdService performs security checks at runtime,
+122             no need for explicit permissions despite exported="true"
+123        -->
+124        <service
+124-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:56:9-62:19
+125            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+125-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:57:13-77
+126            android:exported="true" >
+126-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:58:13-36
+127            <intent-filter android:priority="-500" >
+127-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:59:13-61:29
+127-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:59:28-51
+128                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+128-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:60:17-80
+128-->[com.google.firebase:firebase-iid:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\dfa88aa27a35fa2fdd7ccb92ac8f066e\firebase-iid-16.0.0\AndroidManifest.xml:60:25-77
+129            </intent-filter>
+130        </service>
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\b9b6020ae7333a2aac0935f3e5dd6e97\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+139            android:authorities="com.example.digitaltolling.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:16.0.0] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Asif Tanvir\.gradle\caches\transforms-2\files-2.1\63c123735d6d886f1566d9a70edbc12c\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+146    </application>
+147
+148</manifest>

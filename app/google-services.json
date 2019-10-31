@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "118863325664",
+    "firebase_url": "https://digitaltolling.firebaseio.com",
+    "project_id": "digitaltolling",
+    "storage_bucket": "digitaltolling.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118863325664:android:6ce5d07a11163898",
+        "android_client_info": {
+          "package_name": "com.example.digitaltolling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118863325664-2kk73tkie8mft0v56kjplk38l6iu1cnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitaltolling",
+            "certificate_hash": "ef7037091f119d75188480e16895f41867ef2fdc"
+          }
+        },
+        {
+          "client_id": "118863325664-nf7no7pd0609blikmamjaslkmqcr847t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_eaauGHXXQ76dRKJ0uNT8xNTv0K-V7sI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118863325664-nf7no7pd0609blikmamjaslkmqcr847t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
